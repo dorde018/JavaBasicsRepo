@@ -1,8 +1,8 @@
-package klaseIObjektiVezba;
+package javaBasics;
 
 import java.util.ArrayList;
 
-public class listsBasics {
+public class ListsBasics {
 
 	public static void main(String[] args) {
 

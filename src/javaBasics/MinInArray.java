@@ -1,4 +1,4 @@
-package java;
+package javaBasics;
 
 public class MinInArray {
 

@@ -1,4 +1,4 @@
-package FunkcijaNizVezba;
+package javaBasics;
 
 
 public class PassAndReturnArrayFunction {
