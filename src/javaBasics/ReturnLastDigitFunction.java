@@ -10,10 +10,9 @@ public class ReturnLastDigitFunction {
 		int anyNumber = s.nextInt();
 		
 		int lastDigit = returnLastDigit(anyNumber);
-		System.out.println("Last digit of the entered number is: " + anyNumber + " is " + lastDigit + ".");
-		System.out.println("-------------------------------------------------");
-		System.out.println("Thank you for using our program.");
-		System.out.println("-------------------------------------------------");
+		System.out.println("Last digit of the entered number is: " + lastDigit + ".");
+		System.out.println("---------------------------------------");
+		System.out.println("Thank you for using our program!");
 	}
 
 	public static int returnLastDigit(int n) {

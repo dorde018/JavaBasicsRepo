@@ -20,7 +20,6 @@ public class ListsBasics {
 	for (int i = 0; i < names.size(); i++) {
 		System.out.println( i + 1 + ".name in the list is " + names.get(i) + ".");
 	}
-	
 	System.out.println("We are out of the lsit and the last index of the list is name: " + names.get(names.size()-1) + ".");
 	
 	String[] addingMultipleElemenatsInTheList= {"Giovanna", "Hasel", "Michael", "Moore Clay", "Tonny", "Rose"};

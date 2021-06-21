@@ -25,9 +25,8 @@ public class SumOfEnteredNumbers {
 				System.out.println("Current sum is: " + sum);
 			}
 		}	
-			System.out.println("------------------");
-			System.out.println("End of the program");
-			System.out.println("------------------");
+			System.out.println("-------------------");
+			System.out.println("End of the program.");
 		} 	
 	
 }

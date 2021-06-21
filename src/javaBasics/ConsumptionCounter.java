@@ -54,9 +54,8 @@ public class ConsumptionCounter {
 		
 			break;
 		}
-		System.out.println("----------------------------------------");
+		System.out.println("-----------------------------------------------------------------------");
 		System.out.println("Thank you for using CONSUMPTION COUNTER.");
-		System.out.println("----------------------------------------");
 	}
 
 }

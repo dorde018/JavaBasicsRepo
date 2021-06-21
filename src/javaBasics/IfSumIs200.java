@@ -12,15 +12,18 @@ public class IfSumIs200{
 			if(sum < 200) {
 			System.out.println(counter + ". element of the array is added. The current sum is: " + sum + ". Missing "+ (200-sum) + " to 200.");
 			System.out.println("Sum total of elements of the array is less than 200.");
+			System.out.println("----------------------------------------------------");
 			counter++;
 			}else if(sum == 200) {
 			System.out.println("Sum total equals to 200.");
-			break;
+			System.out.println("------------------------");
+			break;			
 			}else if(sum > 200) {
 			System.out.println("If we add "+ counter + ". element of the array that is " + intArray[i] + " to a current sum. Sum total will be greater than 200 for " + (sum - 200)+".");
 			counter++;
 		}
 	}
+	System.out.println("");
 	System.out.println("End of the program.");
 		
 	}

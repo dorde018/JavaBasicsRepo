@@ -21,9 +21,9 @@ public class LuckyNumber {
 			num = s.nextInt();
 		
 			if(num == luckyNumber) {
-				System.out.println("--------------------------------------------------");
+				System.out.println("--------------------------------------------");
 				System.out.println("Your lucky number is found. CONGRATULATIONS!");
-				System.out.println("--------------------------------------------------");
+				System.out.println("--------------------------------------------");
 				break;
 			}
 			else if(verificationNumber == 1) {
@@ -36,9 +36,9 @@ public class LuckyNumber {
 			}
 		}
 		if (luckyNumber != num) {
-			System.out.println("--------------------------------");
+			System.out.println("-------------------------------");
 			System.out.println("You ran out of attempts.");
-			System.out.println("--------------------------------");
+			System.out.println("-------------------------------");
 			System.out.println("Thank you for using our program.\nRun the program again, and have fun!");
 		}else {		
 			System.out.println("Thank you for using our program.");
