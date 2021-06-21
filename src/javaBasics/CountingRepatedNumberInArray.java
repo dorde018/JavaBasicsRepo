@@ -5,7 +5,7 @@ import java.util.Scanner;
 	public class CountingRepatedNumberInArray {
 		public static void main(String[] args) {
 			Scanner s = new Scanner(System.in);
-			int[] arrayOfNumbers = { 6, 5, 12, 6, 8, 13, 4, 2, 18, 2, 44, 59, 6, 187, 11, 67, 8, 72 };
+			int [] arrayOfNumbers = { 6, 5, 12, 6, 8, 13, 4, 2, 18, 2, 44, 59, 6, 187, 11, 67, 8, 72 };
 			System.out.println("Enter the number you want to count in the array: ");
 			int selectedNumber = s.nextInt();
 			int numOfRepetitons = counterOfRepatedNumberInArray(arrayOfNumbers, selectedNumber);
