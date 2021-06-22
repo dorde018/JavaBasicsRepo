@@ -22,7 +22,7 @@ public class ListsBasics {
 	}
 	System.out.println("We are out of the lsit and the last index of the list is name: " + names.get(names.size()-1) + ".");
 	
-	String[] addingMultipleElemenatsInTheList= {"Giovanna", "Hasel", "Michael", "Moore Clay", "Tonny", "Rose"};
+	String [] addingMultipleElemenatsInTheList= {"Giovanna", "Hasel", "Michael", "Moore Clay", "Tonny", "Rose"};
 		
 		for (int i = 0; i < addingMultipleElemenatsInTheList.length; i++) {
 			names.add(addingMultipleElemenatsInTheList[i]);

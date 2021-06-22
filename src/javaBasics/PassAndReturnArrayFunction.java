@@ -26,7 +26,7 @@ public class PassAndReturnArrayFunction {
 		int counter=0;
 		for (int i = 0; i < passedArray.length; i++) {
 				if (passedArray[i] % 3 == 0) {
-					counter+=1;
+					counter += 1;
 			}
 		}
 		

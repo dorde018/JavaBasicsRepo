@@ -18,6 +18,7 @@ import java.util.Scanner;
 			else {
 				System.out.println("Number " + selectedNumber + " repeats " + numOfRepetitons + " times in the array.");
 			}
+			System.out.println("\nThank you for using our program!");
 		}
 		public static int counterOfRepatedNumberInArray(int[] array, int selectedNumber) {
 			int counter = 0;

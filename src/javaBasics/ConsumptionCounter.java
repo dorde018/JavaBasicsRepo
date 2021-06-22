@@ -23,14 +23,14 @@ public class ConsumptionCounter {
 		case "motorcycle":{
 			double consumption;
 			consumption = (distance*5) / 100;
-			System.out.println("For distance traveled, the motorcycle will consume: " + consumption+ " liters of fuel.");
+			System.out.println("For distance traveled, the motorcycle will consume: " + consumption + " liters of fuel.");
 			
 			break;
 			}
 		case "car":{
 			double consumption;
 			consumption = (distance*7) / 100;
-			System.out.println("For the distance traveled, the car will consume: " + consumption+ " liters of fuel.");
+			System.out.println("For the distance traveled, the car will consume: " + consumption + " liters of fuel.");
 			
 			break;
 		}

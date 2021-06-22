@@ -11,7 +11,7 @@ public class CurrencyConverter {
 		System.out.println("Please enter the amount in pounds: ");
 		pounds = s.nextDouble();
 		
-		while(pounds<=0) {
+		while(pounds <= 0) {
 			System.out.println("Invalid input. Please enter value greater than 0.");
 			System.out.println("Please enter the amount in pounds: ");
 			pounds = s.nextDouble();
