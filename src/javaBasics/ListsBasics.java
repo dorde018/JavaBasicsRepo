@@ -6,7 +6,7 @@ public class ListsBasics {
 
 	public static void main(String[] args) {
 
-	ArrayList<String>names = new ArrayList<String>();
+	ArrayList<String> names = new ArrayList<String>();
 	names.add("Dane");
 	names.add("Martha");
 	names.add("Sonny");

@@ -1,6 +1,6 @@
 package javaBasics;
 
-public class IncreaseElementOfTheArrayForItsOwnIndexPosition {
+public class IncreaseTheElementOfTheArrayForItsOwnIndexPosition {
 
 	public static void main(String[] args) {
 		int [] intArray = {1, 5, 7, -1, 4, 6, 9, 10, 23, 19, 33, -6};

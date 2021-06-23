@@ -9,7 +9,7 @@ public class TwoDigitNumber {
 		int twoDigitNumber;
 		int firstDigit;
 		int secondDigit;
-		System.out.println("Please enter the two-digit number: ");
+		System.out.println("Please enter the two-digit integer: ");
 		twoDigitNumber = s.nextInt();
 		
 		while(true) {

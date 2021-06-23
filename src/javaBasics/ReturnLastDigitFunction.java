@@ -6,7 +6,7 @@ public class ReturnLastDigitFunction {
 
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
-		System.out.println("Please enter any number: ");
+		System.out.println("Please enter any integer: ");
 		int anyNumber = s.nextInt();
 		
 		int lastDigit = returnLastDigit(anyNumber);
