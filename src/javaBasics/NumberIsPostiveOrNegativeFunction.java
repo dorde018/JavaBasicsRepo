@@ -18,11 +18,11 @@ public class NumberIsPostiveOrNegativeFunction {
 	static public String returnResult(int num) {
 		String result= "";
 		if(num > 0){
-			System.out.println("Entered number is positive.");
+			System.out.println("The entered number is positive.");
 		}else if(num < 0){
-			System.out.println("Entered number is negative.");
+			System.out.println("The entered number is negative.");
 		}else if(num == 0){
-			System.out.println("Entered number is zero.");
+			System.out.println("The entered number is zero.");
 		}
 		return result;
 	}

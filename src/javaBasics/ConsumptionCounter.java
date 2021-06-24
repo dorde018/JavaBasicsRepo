@@ -11,7 +11,7 @@ public class ConsumptionCounter {
 		System.out.println("Please enter the distance in kilometers: ");
 		distance = s.nextInt();
 		while(distance <= 0){
-			System.out.println("Invalid input. Distance has to be greater than 0.");
+			System.out.println("Invalid input. The distance has to be greater than 0.");
 			System.out.println("Please enter the distance in kilometers: ");
 			distance = s.nextInt();
 		}
@@ -23,7 +23,7 @@ public class ConsumptionCounter {
 		case "motorcycle":{
 			double consumption;
 			consumption = (distance*5) / 100;
-			System.out.println("For distance traveled, the motorcycle will consume: " + consumption + " liters of fuel.");
+			System.out.println("For the distance traveled, the motorcycle will consume: " + consumption + " liters of fuel.");
 			
 			break;
 			}

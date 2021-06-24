@@ -19,7 +19,7 @@ public class IfSumIs200{
 			System.out.println("------------------------");
 			break;			
 			}else if(sum > 200) {
-			System.out.println("If we add "+ counter + ". element of the array that is " + intArray[i] + " to a current sum. Sum total will be greater than 200 for " + (sum - 200)+".");
+			System.out.println("If we add the "+ counter + ". element of the array that is " + intArray[i] + " to the current sum. Sum total will be greater than 200 for " + (sum - 200)+".");
 			counter++;
 		}
 	}

@@ -13,7 +13,7 @@ public class PrimeNumber {
 		System.out.println("Please enter the integer for which you would like program to check if it is prime:");
 		n = s.nextInt();
 		while ( n <= 0) {
-			System.out.println("Please enter an integer equal to or greater than 1.");
+			System.out.println("Please enter the integer equal to or greater than 1.");
 			System.out.println("Enter the number for which you would like program to check if it is prime:");
 			n = s.nextInt();	
 		}

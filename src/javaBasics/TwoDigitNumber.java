@@ -25,7 +25,7 @@ public class TwoDigitNumber {
 				break;
 			}else {
 				
-				System.out.println("Invalid input. Entered number has to be two-digit number.\nPlease enter the two-digit number: ");
+				System.out.println("Invalid input. The entered number has to be two-digit number.\nPlease enter the two-digit number: ");
 				twoDigitNumber = s.nextInt();
 			}
 		}

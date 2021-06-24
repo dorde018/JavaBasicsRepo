@@ -11,10 +11,10 @@ public class ReturnLastAndPenultimateDigitFunction {
 		int anyNumber = s.nextInt();
 		System.out.println("Number that you entered is: " + anyNumber + ".");
 		int lastDigitOfAnyNumber = returnLastDigit(anyNumber);
-		System.out.println("Last digit of the number: " + anyNumber + " is " + lastDigitOfAnyNumber + ".");
+		System.out.println("The last digit of the number: " + anyNumber + " is " + lastDigitOfAnyNumber + ".");
 		int penultimateDigitOfAnyNumber = returnPenultimateDigit(anyNumber);
 		if ( oneDigitNumber == false) {
-			System.out.println("Penultimate digit of the number: " + anyNumber + " is " + penultimateDigitOfAnyNumber + ".");
+			System.out.println("The penultimate digit of the number: " + anyNumber + " is " + penultimateDigitOfAnyNumber + ".");
 		}
 	}
 	public static int returnLastDigit(int n) {

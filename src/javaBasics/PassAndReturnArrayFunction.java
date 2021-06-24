@@ -6,7 +6,7 @@ public class PassAndReturnArrayFunction {
 	public static void main(String[] args) {
 		
 		int [] intArray = {2, 5, 6, 7, 8, 10, 12, 13, 15, 23, 44, 34, 84, 28, 99, 101, 72, 49};
-			System.out.println("Elements of the array divisible by 3 are: ");
+			System.out.println("The elements of the array divisible by 3 are: ");
 			for (int i = 0; i < intArray.length; i++) {
 				if (intArray[i] % 3 == 0) {
 					System.out.println(intArray[i] + " ");		
@@ -14,7 +14,7 @@ public class PassAndReturnArrayFunction {
 		}
 			
 		int [] array = {2, 5, 7, 9, 15, 33, 44, 65, 58, 18, 34, 93, 109, 245, 88};
-			System.out.println("Elements of the array divisble by 3 are: ");
+			System.out.println("The elements of the array divisble by 3 are: ");
 			int [] returnedFromFunction = returnIntArrayDivisibleBy3(array);
 			for (int i = 0; i < returnedFromFunction.length; i++) {
 			System.out.println(returnedFromFunction[i]);		
