@@ -1,7 +1,7 @@
 package javaBasics;
 import java.util.Scanner;
 
-public class CalcultaorFunction{
+public class CalculatorFunction{
 	public static void main(String[] args) {
 		int numA, numB;
 		Scanner s = new Scanner(System.in);
