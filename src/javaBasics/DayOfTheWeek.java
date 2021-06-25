@@ -4,11 +4,9 @@ import java.util.Scanner;
 
 public class DayOfTheWeek {
 	public static void main(String[] args) {
-	String dayOfTheWeek;
-	
 	Scanner s = new Scanner(System.in);
+	String dayOfTheWeek;
 	System.out.println("Please enter the day of the week:");
-	
 	dayOfTheWeek = s.next().toLowerCase();
 	
 	switch (dayOfTheWeek) {

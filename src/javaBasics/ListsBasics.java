@@ -28,9 +28,9 @@ public class ListsBasics {
 			names.add(addingMultipleElemenatsInTheList[i]);
 		}
 		
-		System.out.println("List after added names: " + names);
+		System.out.println("The list after added names: " + names);
 		System.out.println("Size of the list now is: " + names.size());
-		System.out.println("I'm deleting 3rd index of the list. Deleted element with index 3 from the list is: " + names.remove(3) + ".");
+		System.out.println("I'm deleting 3rd index of the list. Deleted element with index 3 on the list is: " + names.remove(3) + ".");
 		System.out.println("Size of the list now is: " + names.size());
 		System.out.println("Names that are on the list now are: " + names );	
 	}

@@ -5,9 +5,10 @@ import java.util.Scanner;
 public class MonthsOfTheYear {
 
 	public static void main(String[] args) {
-		System.out.println("Please enter the desired month number, and the program will print the answer: ");
 		Scanner s = new Scanner (System.in);
+		System.out.println("Please enter the desired month number, and the program will print the answer: ");
 		int numberOfTheDays = s.nextInt();
+		
 		switch (numberOfTheDays) {
 		case 28:{System.out.println("Only one month of the year has 28 days. It is February.\n"
 				+ "Every leap year February has 29 days.");

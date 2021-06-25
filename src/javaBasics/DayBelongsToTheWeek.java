@@ -5,12 +5,12 @@ import java.util.Scanner;
 public class DayBelongsToTheWeek {
 
 	public static void main(String[] args) {
-		
-		System.out.println("By entering the integer, program will count to what week of the year the day belongs.\nPlease enter the integer:");
 		Scanner s = new Scanner(System.in);
 		String week = "week of the year.";
+		System.out.println("By entering the integer, program will count to what week of the year the day belongs.\nPlease enter the integer:");
 		int enteredDay = s.nextInt();
 		float result = enteredDay / 7f;
+		
 		while(true) {
 		
 		if(enteredDay == 365) {
