@@ -10,14 +10,14 @@ public class LuckyNumber {
 		int num = 0;
 		int luckyNumber;
 		int numAttempts;
-		System.out.println("How many attempts do you want to have: ");
+		System.out.println("Please enter how many attempts do you want to have: ");
 		numAttempts = s.nextInt();
-		System.out.println("Enter your lucky number: ");
+		System.out.println("Please enter your lucky number: ");
 		luckyNumber = s.nextInt();
 		int verificationNumber = 1;
 		
 		for (int i = 1; i <=numAttempts; i++) {
-			System.out.println("Enter " + i +" desired number: ");
+			System.out.println("Enter " + i +". desired number: ");
 			num = s.nextInt();
 		
 			if(num == luckyNumber) {
@@ -31,7 +31,7 @@ public class LuckyNumber {
 					System.out.println("This is your last attempt!");
 					verificationNumber++;
 				}else {
-					System.out.println("We did not find a desired number. Please try again.");	
+					System.out.println("We did not find the lucky number. Please try again.");	
 				}
 			}
 		}
