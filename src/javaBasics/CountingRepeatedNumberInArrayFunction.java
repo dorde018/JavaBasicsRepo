@@ -8,19 +8,19 @@ import java.util.Scanner;
 			int [] arrayOfNumbers = { 6, 5, 12, 6, 8, 13, 4, 2, 18, 2, 44, 59, 6, 187, 11, 67, 8, 72 };
 			System.out.println("Enter the number you want to count in the array: ");
 			int selectedNumber = s.nextInt();
-			int numOfRepetitions = counterOfRepeatedNumberInArray(arrayOfNumbers, selectedNumber);
+			int numOfTheRepetitions = counterOfTheRepeatedNumberInArray(arrayOfNumbers, selectedNumber);
 			
-			if (numOfRepetitions == 0) {
+			if ( numOfTheRepetitions == 0 ) {
 				System.out.println("Number " + selectedNumber + " does not exist in the array.");
-			}else if(numOfRepetitions == 1) {
-				System.out.println("Number " + selectedNumber + " repeats " + numOfRepetitions + " time in the array.");
+			}else if( numOfTheRepetitions == 1) {
+				System.out.println("Number " + selectedNumber + " repeats " + numOfTheRepetitions + " time in the array.");
 			}
 			else {
-				System.out.println("Number " + selectedNumber + " repeats " + numOfRepetitions + " times in the array.");
+				System.out.println("Number " + selectedNumber + " repeats " + numOfTheRepetitions + " times in the array.");
 			}
 			System.out.println("\nThank you for using our program!");
 		}
-		public static int counterOfRepeatedNumberInArray(int[] array, int selectedNumber) {
+		public static int counterOfTheRepeatedNumberInArray(int[] array, int selectedNumber) {
 			int counter = 0;
 			for (int i = 0; i < array.length; i++) {
 				if (array[i] == selectedNumber) {
