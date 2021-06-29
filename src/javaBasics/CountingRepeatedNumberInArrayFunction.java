@@ -5,10 +5,10 @@ import java.util.Scanner;
 	public class CountingRepeatedNumberInArrayFunction {
 		public static void main(String[] args) {
 			Scanner s = new Scanner(System.in);
-			int [] arrayOfNumbers = { 6, 5, 12, 6, 8, 13, 4, 2, 18, 2, 44, 59, 6, 187, 11, 67, 8, 72 };
+			int [] arrayNumbers = { 6, 5, 12, 6, 8, 13, 4, 2, 18, 2, 44, 59, 6, 187, 11, 67, 8, 72 };
 			System.out.println("Enter the number you want to count in the array: ");
 			int selectedNumber = s.nextInt();
-			int numOfTheRepetitions = counterOfTheRepeatedNumberInArray(arrayOfNumbers, selectedNumber);
+			int numOfTheRepetitions = counterOfTheRepeatedNumberInArray(arrayNumbers, selectedNumber);
 			
 			if ( numOfTheRepetitions == 0 ) {
 				System.out.println("Number " + selectedNumber + " does not exist in the array.");
