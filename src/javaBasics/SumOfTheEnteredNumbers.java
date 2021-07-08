@@ -2,7 +2,7 @@ package javaBasics;
 
 import java.util.Scanner;
 
-public class SumOfEnteredNumbers {
+public class SumOfTheEnteredNumbers {
 
 	public static void main(String[] args) {
 		int number;
